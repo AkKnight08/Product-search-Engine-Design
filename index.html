@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/b3348ae33f.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ProductSearchEngine</title>
+    <link rel="stylesheet" href="./pse.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div id="box">
+        <form>
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            id="search"
+            type="text"
+            id="myInput"
+            onkeyup="search()"
+            placeholder="Search Products"
+          />
+        </form>
+        <br />
+        <div id="list" id="product-list">
+          <div class="product" id="product">
+            <img src="./PseAssets/img1.jpg" />
+            <div id="pdetail">
+              <h2>T-shirt for Managers</h2>
+              <h3>$25</h3>
+            </div>
+          </div>
+          <div class="product" id="product">
+            <img src="./PseAssets/img7.jpg" />
+            <div id="pdetail">
+              <h2>Adidas T-shirt</h2>
+              <h3>$20</h3>
+            </div>
+          </div>
+          <div class="product" id="product">
+            <img src="./PseAssets/img6.jpg" />
+            <div id="pdetail">
+              <h2>Puma Bag</h2>
+              <h3>$20</h3>
+            </div>
+          </div>
+          <div class="product" id="product">
+            <img src="./PseAssets/img3.jpg" />
+            <div id="pdetail">
+              <h2>Nike Shoes</h2>
+              <h3>$20</h3>
+            </div>
+          </div>
+          <div class="product" id="product">
+            <img src="./PseAssets/img4.jpg" />
+            <div id="pdetail">
+              <h2>Apple Watch</h2>
+              <h3>$20</h3>
+            </div>
+          </div>
+          <div class="product" id="product">
+            <img src="./PseAssets/img2.jpg" />
+            <div id="pdetail">
+              <h2>Shoes for Men</h2>
+              <h3>$20</h3>
+            </div>
+          </div>
+          <div class="product" id="product">
+            <img src="./PseAssets/img5.jpg" />
+            <div id="pdetail">
+              <h2>Apple iphone-14</h2>
+              <h3>$20</h3>
+            </div>
+          </div>
+          <div class="product" id="product">
+            <img src="./PseAssets/img8.jpg" />
+            <div id="pdetail">
+              <h2>Adidas Sweatshirt</h2>
+              <h3>$20</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./app.js"></script>
+  </body>
+</html>

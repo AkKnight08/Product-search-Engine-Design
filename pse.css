@@ -1,0 +1,81 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(blue, red 130%);
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+#box {
+  width: 350px;
+  height: 500px;
+  background-color: whitesmoke;
+  box-shadow: 4px 4px 30px rgba(230, 196, 196, 0.3);
+  border-radius: 7px;
+  padding: 10px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#box::-webkit-scrollbar {
+  display: none;
+}
+#box:hover {
+  box-shadow: 4px 4px 50px rgba(230, 196, 196, 0.3);
+}
+#box form {
+  width: 100%;
+  background-color: whitesmoke;
+  height: 50px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+#box i {
+  width: 20%;
+  background-color: whitesmoke;
+  height: 60px;
+  border-radius: 7px;
+  display: inline;
+  padding-left: 7px;
+  font-size: 1.2rem;
+}
+#box input {
+  display: inline-block;
+  width: 80%;
+  background-color: whitesmoke;
+  height: 48px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  font-weight: 540;
+}
+#list {
+  width: 350px;
+}
+#list img {
+  width: 33%;
+  height: 90%;
+  padding: 8px;
+  border-radius: 7px;
+}
+#pdetail {
+  width: 65%;
+  background-color: whitesmoke;
+  text-align: left;
+  font-size: 0.8rem;
+}
+#product {
+  display: flex;
+  line-height: 13px;
+  height: 100px;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  box-shadow: 10px 10px 30px rgba(230, 196, 196, 0.3);
+  cursor: pointer;
+  padding-bottom: 5px;
+}
